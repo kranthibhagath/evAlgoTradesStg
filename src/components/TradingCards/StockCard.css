@@ -1,0 +1,99 @@
+.stock-card {
+    margin: 16px;
+  }
+  
+  .stock-info {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 16px; */
+  }
+  
+  .stock-icon-container {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+  }
+  
+  .stock-icon {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .stock-details {
+    flex-grow: 1;
+  }
+  
+  .stock-details h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .stock-details p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .stock-price {
+    text-align: right;
+  }
+  
+  .stock-price h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .stock-price p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .stock-price ion-icon {
+    margin-right: 4px;
+  }
+  
+  .stock-actions {
+    display: flex;
+    justify-content:  flex-end;
+  }
+  
+  .buy-button, .sell-button {
+    flex: 1;
+    margin: 0 4px;
+  }
+  
+  .buy-button {
+    --background: #3475F1;
+  }
+  
+  .sell-button {
+    --background: #80ed99;
+  }
+  
+  .evaigo-overall {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-small;
+  }
+  
+  .evaigo-overall p {
+    margin: 0 8px 0 0;
+    font-size: 0.9rem;
+  }
+  
+  .evaigo-overall ion-icon {
+    font-size: 1.2rem;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 2px;
+  }
